@@ -1,0 +1,53 @@
+---
+layout: no-sidebar 
+title: Contact
+permalink: /contact/
+---
+
+<div class="container contact-page">
+  <div class="row">
+    <!-- 联系方式 -->
+    <div class="col-12 col-lg-8">
+      <div class="contact-info">
+        <ul class="fa-ul">
+          <!-- 邮箱 -->
+          <li class="mb-4">
+            <span class="fa-li">
+              <i class="fas fa-envelope fa-2x text-primary"></i>
+            </span>
+            <div class="contact-detail">
+              <h3>Email</h3>
+              <a href="mailto:{{ site.email | encode_email }}">
+                {{ site.email | replace: "@", "<span style='display:none'>remove-me</span>@" | raw }}
+              </a>
+            </div>
+          </li>
+
+          <!-- 电话 -->
+          <li class="mb-4">
+            <span class="fa-li">
+              <i class="fas fa-phone fa-2x text-primary"></i>
+            </span>
+            <div class="contact-detail">
+              <h3>Phone</h3>
+              <p>{{ site.phone | default: "+86-10-82541028" }}</p>
+            </div>
+          </li>
+
+          <!-- 地址 -->
+          <li class="mb-4">
+            <span class="fa-li">
+              <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+            </span>
+            <div class="contact-detail">
+              <h3>Office Address</h3>
+              <p itemprop="address">{{ site.address | markdownify }}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
