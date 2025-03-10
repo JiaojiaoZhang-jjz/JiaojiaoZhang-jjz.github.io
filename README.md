@@ -1,3 +1,24 @@
+## 调整导航栏入口
+_data/navigation.yml这里配置
+
+## 修改左侧个人信息
+_config.yml这里配置
+author配置英文信息，cn-author配置中文信息
+
+## 英文首页内容
+_pages/about.md这里写内容，markdown格式
+
+## 中文首页内容
+_includes/cn-content.md这里写内容
+
+## publications
+_pages/publications-content.md填写内容
+css设计在assets/main。scss
+
+
+
+
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

@@ -46,17 +46,18 @@ function updateNav() {
     }
 
     // Hide the dropdown btn if hidden list is empty
-    if(breaks.length < 1) {
-      $btn.addClass('hidden');
-      $btn.removeClass('close');
-      $hlinks.addClass('hidden');
-    }
+    // if(breaks.length < 1) {
+    //   $btn.addClass('hidden');
+    //   $btn.removeClass('close');
+    //   $hlinks.addClass('hidden');
+    // }
   }
 
   // Keep counter updated
   $btn.attr("count", breaks.length);
 
 }
+
 
 // Window listeners
 

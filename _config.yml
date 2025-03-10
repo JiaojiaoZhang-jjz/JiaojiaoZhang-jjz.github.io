@@ -80,7 +80,7 @@ author_cn:
   avatar           : "zjj.png"
   name             : "张娇娇"
   pronouns         : # "她"
-  bio              : "这是中文侧边栏的简短介绍。"
+  bio              : "这是中文侧边栏的简短介绍。这是中文侧边栏的简短介绍。"
   location         : "中国"
   employer         : "红砖大学"
   uri              : "https://example.cn"

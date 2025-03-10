@@ -1,13 +1,7 @@
-{% unless page.layout == 'home' %}  <!-- 首页保留侧边栏 -->
-  <aside class="sidebar">
-    <!-- 原有侧边栏内容 -->
-  </aside>
-{% endunless %}
-
 {% include base_path %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+<div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}

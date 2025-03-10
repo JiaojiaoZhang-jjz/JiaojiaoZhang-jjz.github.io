@@ -5,6 +5,8 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "中文主页"
+    url: /cn/
 
   - title: "Publications"
     url: /publications/
@@ -18,8 +20,7 @@ main:
   - title: "Contact" 
     url: /contact/
     
-  - title: "中文主页"
-    url: /cn/
+
         
   #- title: "Blog Posts"
   #  url: /year-archive/

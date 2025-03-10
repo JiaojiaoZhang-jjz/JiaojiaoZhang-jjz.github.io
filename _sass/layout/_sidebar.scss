@@ -14,16 +14,16 @@
   margin-bottom: 1em;
    
   @media (orientation: portrait) {
-    margin-top: 5em;
+    margin-top: 0;
   }
-/*
+  
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
   }
-*/
+
   @media screen and (min-width: $sidebar-screen-min-width) {
     .layout--no-sidebar .sidebar {
       display: none; // 完全隐藏侧边栏
@@ -71,6 +71,7 @@
     width: 100%;
   }
 }
+
 
 .sidebar__right {
   margin-bottom: 1em;
