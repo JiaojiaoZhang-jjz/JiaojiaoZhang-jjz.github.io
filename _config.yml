@@ -75,6 +75,19 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+# 中文侧边栏信息
+author_cn:
+  avatar           : "zjj.png"
+  name             : "张娇娇"
+  pronouns         : # "她"
+  bio              : "这是中文侧边栏的简短介绍。"
+  location         : "中国"
+  employer         : "红砖大学"
+  uri              : "https://example.cn"
+  email            : "zhangjj@example.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  # 其他社交媒体和学术网站信息
+
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:

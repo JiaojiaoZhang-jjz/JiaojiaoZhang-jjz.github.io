@@ -1,0 +1,54 @@
+{% unless page.layout == 'home' %}  <!-- 首页保留侧边栏 -->
+  <aside class="sidebar">
+    <!-- 原有侧边栏内容 -->
+  </aside>
+{% endunless %}
+
+{% include base_path %}
+
+{% assign author = site.author_cn %}
+
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | prepend: "/images/" | prepend: base_path }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  </div>
+{% endif %}
+
+<!-- 其他社交媒体和学术网站信息 
+
+{% if author %}
+  <div class="sidebar sticky">
+    <div class="author-profile">
+      {% if author.avatar %}
+        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      {% endif %}
+      <h3>{{ author.name }}</h3>
+      {% if author.pronouns %}<p>{{ author.pronouns }}</p>{% endif %}
+      {% if author.bio %}<p>{{ author.bio }}</p>{% endif %}
+      {% if author.location %}<p><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</p>{% endif %}
+      {% if author.employer %}<p><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</p>{% endif %}
+      {% if author.uri %}<p><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>个人主页</a></p>{% endif %}
+      {% if author.email %}<p><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>电子邮件</a></p>{% endif %}
+      {% if author.googlescholar %}<p><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></p>{% endif %}
+    </div>
+  </div>
+{% endif %}
+-->

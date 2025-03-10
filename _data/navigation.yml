@@ -18,8 +18,8 @@ main:
   - title: "Contact" 
     url: /contact/
     
-  #- title: "Portfolio"
-  #  url: /portfolio/
+  - title: "中文主页"
+    url: /cn/
         
   #- title: "Blog Posts"
   #  url: /year-archive/
