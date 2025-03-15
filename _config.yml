@@ -83,7 +83,7 @@ author_cn:
   bio              : "这是中文侧边栏的简短介绍。这是中文侧边栏的简短介绍。"
   location         : "中国"
   employer         : "红砖大学"
-  uri              : "https://example.cn"
+  uri              : #"https://example.cn"
   email            : "zhangjj@example.cn"
   googlescholar    : "https://scholar.google.com/citations?user=Y9TIpzAAAAAJ&hl=zh-CN&oi=sra"
   # 其他社交媒体和学术网站信息

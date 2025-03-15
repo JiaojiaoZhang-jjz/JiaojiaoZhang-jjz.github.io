@@ -134,7 +134,7 @@
 
 .author__name {
   margin: 0;
-  text-align: center; /* 添加这一行使名字居中显示 */
+  //text-align: center; /* 添加这一行使名字居中显示 */
 
   @include breakpoint($large) {
     margin-top: 10px;

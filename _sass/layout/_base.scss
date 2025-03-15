@@ -372,15 +372,119 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   }
 }
 
-  /* pubulication页面 */
-.publication {
-  margin-bottom: 2em;
+/* ########################################################################
+学术论文引用格式
+######################################################################## */
+.publication-category {
+  color: #232222;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1.5rem;
 }
 
-.publication h2 {
-  margin-top: 0;
+/* 作者姓名样式：黑色加粗 */
+.citation-authors strong {
+  color: #000000;  /* 黑色 */
+  font-weight: 700; /* 加粗 */
 }
 
-.publication p {
-  margin: 0.5em 0;
+/* 文章标题链接样式：蓝色 */
+a.citation-title {
+  text-decoration: none; /* 默认无下划线 */
+  transition: text-decoration 0.2s; /* 添加过渡动画 */
 }
+
+/* 悬停时链接效果 */
+a.citation-title:hover {
+  text-decoration: underline; /* 添加下划线反馈 */
+}
+
+/* 其他内容统一黑色 */
+.citation-authors, 
+.citation-journal, 
+.citation-doi {
+  color: #000000;   /* 普通黑色 */
+}
+
+/* 期刊名称斜体（兼容原有结构） */
+.citation-journal em {
+  font-style: italic;
+}
+
+/* ###########################################
+talk页面
+#############################################
+ */
+
+/* 年份标题 */
+.talk-year {
+  color: #232222;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1.5rem;
+}
+
+/* 条目样式 */
+.talk-item {
+  margin-bottom: 1.8rem;
+  line-height: 1.7;
+}
+
+/* 日期样式 */
+.talk-date strong {
+  color: #232222;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+/* 标题链接 */
+.talk-title {
+
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.talk-title:hover {
+  text-decoration: underline;
+}
+
+/*###################################
+teaching
+####################################*/
+/* 分类标题 */
+.category-title {
+  color: #232222;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1.5rem;
+}
+
+/* 条目通用样式 */
+.teaching-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaching-item {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* 教学条目 */
+.teaching-role {
+  color: #232222;
+  font-weight: 600;
+}
+
+.teaching-code {
+  font-family: monospace;
+  background: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* 期刊名称 */
+.journal-name {
+  color: #444;
+  font-style: italic;
+}
+

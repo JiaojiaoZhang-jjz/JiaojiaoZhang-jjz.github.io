@@ -1,0 +1,24 @@
+# 按时间倒序排列
+- year: 2024
+  entries:
+    - date: "December 2024"
+      title: "Contract-based design of multi-agent systems under signal temporal logic tasks"
+      type: "Guest lecture"
+      link:  "#your-link-here" # 可填入实际链接
+      location: "Osaka Metropolitan University"
+      course: "Multi-Agent Systems"
+
+- year: 2023
+  entries:
+    - date: "December 2023"
+      title: "Distributed analysis and control of large scale cyber physical systems"
+      type: "Online talk"
+      link: "#your-link-here" # 可填入实际链接
+      location: "Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)"
+    
+    - date: "September 2023"
+      title: "Distributed synthesis of STL for multi-agent systems via assume-guarantee contracts"
+      type: "Workshop Presentation"
+      link: "#your-link-here"  # 示例链接
+      location: "KTH Royal Institute of Technology"
+      event: "Contract-Based Design Workshop"

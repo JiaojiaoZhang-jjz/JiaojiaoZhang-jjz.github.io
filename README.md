@@ -12,8 +12,22 @@ _pages/about.md这里写内容，markdown格式
 _includes/cn-content.md这里写内容
 
 ## publications
-_pages/publications-content.md填写内容
-css设计在assets/main。scss
+_data/publications.yml填写内容
+css格式设计_sass/layout/_base.scss
+
+## Talks
+_data/talks.yml填写内容
+css格式设计/_sass/layout/_base.scss
+
+## Teaching
+_data/teaching.yml填写内容
+css格式设计/_sass/layout/_base.scss
+
+## Contact
+_config.yml这里配置
+
+
+
 
 
 

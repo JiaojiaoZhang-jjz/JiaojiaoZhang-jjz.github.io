@@ -1,16 +1,44 @@
 ---
 layout: no-sidebar 
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-{% endif %}
+{% assign sorted_years = site.data.talks | sort: "year" | reverse %}
+{% for year_data in sorted_years %}
+  
+  <!-- 年份标题 -->
+  <h2 class="talk-year">{{ year_data.year }}</h2>
+  
+  <ul class="talk-list">
+    {% assign sorted_entries = year_data.entries | sort: "date" | reverse %}
+    {% for entry in sorted_entries %}
+    <li class="talk-item">
+      <!-- 日期 -->
+      <span class="talk-date"><strong>{{ entry.date }}</strong></span>
+      
+      <!-- 带链接的标题 -->
+      {% if entry.link %}
+        <a href="{{ entry.link }}" class="talk-title">{{ entry.type }} on “{{ entry.title }}”</a>
+      {% else %}
+        <span class="talk-title">{{ entry.type }} on “{{ entry.title }}”</span>
+      {% endif %}
+      
+      <!-- 地点描述 -->
+      <span class="talk-location">
+        {% if entry.course %}
+          as part of the graduate course “{{ entry.course }}” at
+        {% elsif entry.event %}
+          part of the {{ entry.event }} at
+        {% endif %}
+        <em>{{ entry.location }}</em>
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
 {% endfor %}
