@@ -1,7 +1,7 @@
 ---
 layout: cn-archive
 permalink: /cn/
-title: "中文主页"
+title: ""
 author_profile: true
 ---
 
@@ -20,7 +20,8 @@ author_profile: true
     {% include masthead.html %}
 
     <div class="content">
-      {% include_relative cn_content.md %}
+      {% capture md_content %}{% include cn_content.md %}{% endcapture %}
+      {{ md_content | markdownify }}
     </div>
 
     {% include scripts.html %}

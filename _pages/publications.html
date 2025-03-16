@@ -7,72 +7,24 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- 预印本 -->
-<h2 class="publication-category">Preprint</h2>
-<ol class="citation-list">
-  {% assign preprints = site.data.publications | where: "type", "preprint" %}
-  {% for entry in preprints %}
-  <li class="citation-item">
-    <div class="citation-content">
-      <span class="citation-authors">
-        {% for author in entry.authors %}
-          {% if author.name == "J Zhang" %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}.
-      </span>
-      <a href="{{ entry.link }}" target="_blank" rel="noopener noreferrer" class="citation-title">{{ entry.title }}.</a>
-      <span class="citation-journal">
-        <em>{{ entry.journal }}</em>, 
-        {{ entry.year }}.
-      </span>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-<!-- 期刊论文 -->
-<h2 class="publication-category">Journal Papers</h2>
-<ol class="citation-list">
-  {% assign journals = site.data.publications | where: "type", "journal" %}
-  {% for entry in journals %}
-  <li class="citation-item">
-    <div class="citation-content">
-      <span class="citation-authors">
-        {% for author in entry.authors %}
-          {% if author.name == "J Zhang" %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}.
-      </span>
-      <a href="{{ entry.link }}" target="_blank" rel="noopener noreferrer" class="citation-title">{{ entry.title }}.</a>
-      <span class="citation-journal">
-        <em>{{ entry.journal }}</em>, 
-        {% if entry.volume %}vol. {{ entry.volume }}{% endif %}{% if entry.number %}({{ entry.number }}){% endif %}, 
-        {{ entry.pages }} ({{ entry.year }}).
-        {% if entry.doi %}
-          DOI: <a href="https://doi.org/{{ entry.doi }}">{{ entry.doi }}</a>
-        {% endif %}
-      </span>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+  <body>
 
-<!-- 会议论文 -->
-<h2 class="publication-category">Conference Papers</h2>
-<ol class="citation-list">
-  {% assign conferences = site.data.publications | where: "type", "conference" %}
-  {% for entry in conferences %}
-  <li class="citation-item">
-    <div class="citation-content">
-      <span class="citation-authors">
-        {% for author in entry.authors %}
-          {% if author.name == "J Zhang" %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}.
-      </span>
-      <a href="{{ entry.link }}" target="_blank" rel="noopener noreferrer" class="citation-title">{{ entry.title }}.</a>
-      <span class="citation-journal">
-        <em>{{ entry.conference }}</em>, 
-        {{ entry.year }}.
-      </span>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div class="content">
+      {% capture md_content %}{% include publication-content.md %}{% endcapture %}
+      {{ md_content | markdownify }}
     </div>
-  </li>
-  {% endfor %}
-</ol>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

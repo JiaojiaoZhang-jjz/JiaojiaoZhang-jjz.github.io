@@ -73,7 +73,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -400,17 +400,3 @@
   text-transform: uppercase;
 }
 
-/* 无侧边栏时的内容居中 */
-.layout--no-sidebar {
-  .page,
-  .archive {
-    max-width: 800px; // 控制内容区域宽度
-    margin: 0 auto; // 水平居中
-    float: none; // 清除浮动
-  }
-
-  // 修复 Susy 网格系统的影响
-  @include breakpoint($large) {
-    @include span(full);
-  }
-}

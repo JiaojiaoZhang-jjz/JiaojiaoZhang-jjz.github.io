@@ -5,46 +5,24 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
+  <body>
 
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-{% for category in site.data.teaching.categories %}
-  <section class="teaching-category">
-    <h2 class="category-title">{{ category.name }}</h2>
-    
-    <!-- 使用与talks相同的列表结构 -->
-    <ul class="teaching-list">
-      {% assign entries = category.entries | sort: "year" | reverse %}
-      {% for entry in entries %}
-        <li class="teaching-item">
-          <!-- 教学条目 -->
-          {% if category.name == "Teaching" %}
-            <span class="teaching-date"><strong>{{ entry.term }}</strong></span>
-            <span class="teaching-title">
-              {{ entry.role }}: 
-              {% if entry.code %}[{{ entry.code }}]{% endif %} 
-              {{ entry.title }}
-            </span>
-            <span class="teaching-location">
-              at <em>{{ entry.location }}</em>
-            </span>
+    <div class="content">
+      {% capture md_content %}{% include teaching-content.md %}{% endcapture %}
+      {{ md_content | markdownify }}
+    </div>
 
-          <!-- 期刊审稿 -->
-          {% elsif category.name == "Journal Reviewer" %}
-            <span class="teaching-date"><strong>●</strong></span> <!-- 保持符号对齐 -->
-            <span class="teaching-title">{{ entry.name }}</span>
+    {% include scripts.html %}
 
-          <!-- 研讨会组织 -->
-          {% else %}
-            <span class="teaching-date"><strong>{{ entry.year }}</strong></span>
-            <span class="teaching-title">“{{ entry.title }}”</span>
-            <span class="teaching-location">
-              at <em>{{ entry.conference }}</em>
-            </span>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-{% endfor %}
+  </body>
+</html>
