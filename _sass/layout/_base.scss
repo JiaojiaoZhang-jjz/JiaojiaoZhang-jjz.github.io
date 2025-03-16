@@ -382,6 +382,38 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   margin: 2rem 0 1.5rem;
 }
 
+/* ########################################################################
+表格样式
+######################################################################## */
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border: none; /* 移除外边框 */
+
+  th:first-child, td:first-child {
+    width: auto; /* 第一列宽度自适应内容 */
+    white-space: nowrap; /* 可选：防止内容换行 */
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: none; /* 移除所有边框 */
+    border-bottom: 1px solid #e0e0e0; /* 底部边框 */
+    transition: background-color 0.2s ease; /* 悬停动画 */
+  }
+
+
+  tr:hover td {
+    background-color: #f5f7fa; /* 悬停背景色 */
+    cursor: pointer; /* 悬停手型指针 */
+  }
+
+  tr:last-child td {
+    border-bottom: none; /* 最后一行无底部边框 */
+  }
+}
 
 
 

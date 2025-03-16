@@ -8,21 +8,61 @@ Jiaojiao Zhang is currently an Assistant Professor of [The Intelligent Computing
 Her research interests include optimal algorithms and theory, with applications in distributed optimization, federated learning, secure and robust computation, and privacy protection. Her work has been published in TSP, TAC, TSIPN, NeurIPS, ICLR, and AISTATS, etc.
 
 <h2 class="category">Employment</h2>
-
-- **2025 - Now**: Assistant Professor, The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study  
-- **2022 - 2025**: Postdoc, Division of Decision and Control Systems, KTH Royal Institute of Technology (KTH)  
-- **Advisor**: Prof. Mikael Johansson  
-- **Coadvisor**: Prof. Joakim Jalden
+<table class="table">
+  <tbody>
+    <tr>
+      <td><strong>2025 - Now</strong></td>
+      <td>Assistant Professor, The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study</td>
+    </tr>
+    <tr>
+      <td><strong>2022 - 2025</strong></td>
+      <td>Postdoc, Division of Decision and Control Systems, KTH Royal Institute of Technology (KTH)</td>
+    </tr>
+    <tr>
+      <td><strong>Advisor</strong></td>
+      <td>Prof. Mikael Johansson</td>
+    </tr>
+    <tr>
+      <td><strong>Coadvisor</strong></td>
+      <td>Prof. Joakim Jalden</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 class="category">Education</h2>
+<table class="table">
+  <tbody>
+    <tr>
+      <td><strong>Aug. 2018 – Aug. 2022</strong></td>
+      <td>PhD in Systems Engineering and Engineering Management, The Chinese University of Hong Kong (CUHK) </td>
+    </tr>
+    <tr>
+      <td><strong>Sep. 2015 – Jun. 2018</strong></td>
+      <td>M.S. in Automation, University of Science and Technology of China (USTC)</td>
+    </tr>
+    <tr>
+      <td><strong>Sep. 2011 – Jun. 2015</strong></td>
+      <td>B.E. in Automation, Harbin Engineering University (HEU)</td>
+    </tr>
+  </tbody>
+</table>
 
-- **Aug. 2018 – Aug. 2022**: PhD in Systems Engineering and Engineering Management, The Chinese University of Hong Kong (CUHK)  
-- **Sep. 2015 – Jun. 2018**: M.S. in Automation, University of Science and Technology of China (USTC)  
-- **Sep. 2011 – Jun. 2015**: B.E. in Automation, Harbin Engineering University (HEU)  
+
 
 <h2 class="category">Honors and awards</h2>
-
-- 2024:  IEEE ICASSP The Best Paper Award (1/2800+)  
-- 2022 – 2024: Digital Futures Postdoctoral Fellowship, KTH  
-- 2018-2021: Hong Kong Ph.D. Fellowship Scheme (HKPFS), CUHK
-
+<table class="table">
+  <tbody>
+    <tr>
+      <td><strong>2024</strong></td>
+      <td>IEEE ICASSP The Best Paper Award (1/2800+)</td>
+    </tr>
+    <tr>
+      <td><strong>2022–2024</strong></td>
+      <td>Digital Futures Postdoctoral Fellowship, KTH</td>
+    </tr>
+    <tr>
+      <td><strong>2018–2021</strong></td>
+      <td>Hong Kong Ph.D. Fellowship Scheme (HKPFS), CUHK</td>
+    </tr>
+  </tbody>
+</table>
