@@ -6,7 +6,7 @@
 - **2023** ICASSP. Byzantine-Robust and Communication-Efficient Personalized Federated Learning.     
 - **2021** SIAM Conference on Optimization. Variance-Reduced Stochastic Quasi-Newton Methods for Decentralized Learning.
 
-<br><br>
+<br>
 <h2 class="category">Teaching</h2>
 
 Courses I have taught at CUHK  

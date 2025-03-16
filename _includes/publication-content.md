@@ -2,8 +2,6 @@
 
 1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://arxiv.org/abs/2502.03958). arXiv preprint arXiv:2502.03958
 
-
-
 <h2 class="category">Journal Paper</h2>
 
 1. **Jiaojiao Zhang**, Linglingzhi Zhu, Dominik Fay, Mikael Johansson. [Locally Differentially Private Online Federated Learning With Correlated Noise](https://arxiv.org/abs/2411.18752), 2025. Accepted by IEEE Transactions on Signal Processing. 
