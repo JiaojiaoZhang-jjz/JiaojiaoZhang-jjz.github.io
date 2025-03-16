@@ -30,7 +30,7 @@ with Sparse Disturbance](https://ieeexplore.ieee.org/document/8354810) IEEE Tran
 
 <h2 class="category">Conference Paper</h2>
 
-1. Yue Huang, **Jiaojiao Zhang**, Qing Ling. Differential privacy in distributed learning: Beyond uniformly bounded stochastic gradients. Accepted by Artificial Intelligence and Statistics (AISTATS 2025). 
+1. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Differential privacy in distributed learning: Beyond uniformly bounded stochastic gradients](https://openreview.net/forum?id=C4ultdMG8R). Accepted by Artificial Intelligence and Statistics (AISTATS 2025). 
 
 2. Zesen Wang, Jiaojiao Zhang, Xuyang Wu, and Mikael Johansson. [From promise to practice: realizing high-performance decentralized training](https://arxiv.org/pdf/2410.11998). Accepted by The Thirteenth International Conference on Learning Representations (ICLR 2025).
 
