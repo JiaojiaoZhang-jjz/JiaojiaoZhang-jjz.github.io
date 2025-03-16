@@ -9,25 +9,13 @@ author配置英文信息，cn-author配置中文信息
 _pages/about.md这里写内容，markdown格式
 
 ## 中文首页内容
-_pages/cn-content.md这里写内容
+_includes/cn-content.md这里写内容
 
 ## publications
-_data/publications.yml填写内容
-css格式设计_sass/layout/_base.scss
+_includes/publications-content.md填写内容
 
-## Talks
-_data/talks.yml填写内容
-css格式设计/_sass/layout/_base.scss
-
-## Teaching
-_data/teaching.yml填写内容
-css格式设计/_sass/layout/_base.scss
-
-## Contact
-_config.yml这里配置
-
-
-
+## Activities
+_includes/activities-content.md填写内容
 
 
 
