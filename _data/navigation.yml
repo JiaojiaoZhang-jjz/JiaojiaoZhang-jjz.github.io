@@ -14,19 +14,7 @@ main:
   - title: "中文主页"
     url: /cn/   
 
-  #- title: "Teaching"
-  #  url: /teaching/ 
 
-  #- title: "Contact" 
-  #  url: /contact/
-    
 
         
-  #- title: "Blog Posts"
-  #  url: /year-archive/
-    
-  #- title: "CV"
-  #  url: /cv/
-    
-  #- title: "Guide"
-  #  url: /markdown/
+
