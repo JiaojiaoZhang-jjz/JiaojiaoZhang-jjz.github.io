@@ -20,7 +20,7 @@ class: nosidebar-container
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div class="content">
+    <div class="page-content">
       {% capture md_content %}{% include publication-content.md %}{% endcapture %}
       {{ md_content | markdownify }}
     </div>

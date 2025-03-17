@@ -386,6 +386,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 表格样式
 ######################################################################## */
 table.table {
+  font-size: $type-size-9 !important; // 覆盖表格默认小字体
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
@@ -415,5 +416,10 @@ table.table {
   }
 }
 
+/* ########################################################################
+页面正文字体
+######################################################################## */
 
-
+.page-content {
+  font-size: $type-size-9 !important;
+}

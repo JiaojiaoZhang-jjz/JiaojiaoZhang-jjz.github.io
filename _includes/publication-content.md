@@ -1,6 +1,6 @@
 <h2 class="category">Submitted Paper</h2>
 
-1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://arxiv.org/abs/2502.03958). arXiv preprint arXiv:2502.03958
+1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://arxiv.org/abs/2502.03958). arXiv preprint arXiv:2502.03958.
 
 <h2 class="category">Journal Paper</h2>
 
@@ -14,7 +14,7 @@
 
 5. **Jiaojiao Zhang**, Huikang Liu, Anthony Man-Cho So, Qing Ling. [Variance-Reduced Stochastic Quasi-Newton Methods for Decentralized Learning](https://ieeexplore.ieee.org/document/10034848). IEEE Transactions on Signal Processing, 2023.
 
-6. Huikang Liu,**Jiaojiao Zhang**, Anthony Man-Cho So, Qing Ling. [A Communication-Efficient Decentralized Newton’s Method with Provably Faster Convergence](https://ieeexplore.ieee.org/document/10171985). IEEE Transactions on Signal and Information Processing over Networks, 2023. (I am the corresponding author)
+6. Huikang Liu, **Jiaojiao Zhang**, Anthony Man-Cho So, Qing Ling. [A Communication-Efficient Decentralized Newton’s Method with Provably Faster Convergence](https://ieeexplore.ieee.org/document/10171985). IEEE Transactions on Signal and Information Processing over Networks, 2023. (I am the corresponding author)
 
 7. **Jiaojiao Zhang**, Huikang Liu, Anthony Man-Cho So, Qing Ling. [A Penalty Alternating Direction Method of Multipliers for Convex Composite Optimization over Decentralized Networks](https://ieeexplore.ieee.org/abstract/document/9466405). IEEE Transactions on Signal Processing, 2021.
 

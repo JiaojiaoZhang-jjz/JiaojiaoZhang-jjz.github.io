@@ -17,6 +17,8 @@ layout: compress
     {% include masthead.html %}
 
     {{ content }}
+    {{ md_content | markdownify }}
+
 
     {% include scripts.html %}
 
