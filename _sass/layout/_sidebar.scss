@@ -164,6 +164,8 @@
 
 .author__bio {
   margin: 0;
+  white-space: pre-line; // 关键属性：保留换行符
+  line-height: 1.6;      // 增加行间距
 
   @include breakpoint($large) {
     margin-top: 10px;

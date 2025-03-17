@@ -4,6 +4,7 @@
 
 .masthead {
   position: fixed;
+  justify-content: center; /* 水平居中 */
   background: var(--global-bg-color);
   border-bottom: 1px solid var(--global-border-color);
   height: $masthead-height;

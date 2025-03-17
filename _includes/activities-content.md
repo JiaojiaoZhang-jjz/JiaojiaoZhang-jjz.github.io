@@ -9,7 +9,7 @@
 <br>
 <h2 class="category">Teaching</h2>
 
-Courses I have taught at CUHK  
+Courses I have TAed at CUHK  
 - **ENGG 5501**: Foundation of Optimization, by Prof. Anthony Man-Cho So  Fall 2019,2020,2021
 - **FTEC 2101**: Optimization Methods, by Prof. Hoi-To Wai  Spring 2019 
 - **SEEM 2440**: Engineering Economics, by Prof. Dohyun Ahn  Fall 2018,2019,2020

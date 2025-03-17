@@ -397,6 +397,7 @@
   list-style: none;
   font-size: 0.8rem;
 
+
   a {
     display: block;
     padding: 0.5rem 1rem;
@@ -437,4 +438,10 @@
 .active {
   color: var(--global-link-color-hover) !important;
   border-bottom: 2px solid var(--global-base-color);
+}
+
+.masthead__menu-item a.active {
+  font-weight: bold; /* 加粗字体 */
+  color: var(--global-link-color-hover); /* 可选：更改颜色 */
+  text-decoration: none; /* 可选：添加下划线 */
 }

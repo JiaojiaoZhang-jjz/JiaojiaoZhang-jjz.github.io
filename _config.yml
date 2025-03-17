@@ -25,7 +25,10 @@ author:
   avatar           : "zjj.png"
   name             : "Jiaojiao Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor of The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study"
+  #bio              : "Assistant Professor of The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study"
+  bio              : |
+                    Assistant Professor 
+                    The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study
   location         : "China"
   employer         : "Great Bay University"
   uri              : # URL
@@ -82,7 +85,7 @@ author_cn:
   pronouns         : # "她"
   bio              : "大湾区高等研究院智能计算研究中心助理教授"
   location         : "中国"
-  employer         : "大湾区大学"
+  employer         : "大湾区大学(筹)"
   uri              : #"https://example.cn"
   email            : "jiaoz@kth.se"
   googlescholar    : "https://scholar.google.com/citations?user=Y9TIpzAAAAAJ&hl=zh-CN&oi=sra"
