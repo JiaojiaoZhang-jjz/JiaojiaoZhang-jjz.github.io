@@ -164,9 +164,13 @@
 
 .author__bio {
   margin: 0;
-  white-space: pre-line; // 关键属性：保留换行符
+  white-space: pre-line !important; // 提高优先级，强制保留换行符
   line-height: 1.6;      // 增加行间距
-
+  word-wrap: break-word; // 允许长词换行
+  overflow-wrap: break-word; // 现代浏览器支持
+  display: block; // 确保作为块级元素显示
+  font-size: $type-size-6; // 设置字体大小与原来一致
+  
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
