@@ -6,7 +6,7 @@ author_profile: true
 <div class="page-content" markdown="1">
 Jiaojiao Zhang is currently an Assistant Professor of [The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study](https://www.gbu.edu.cn/menu/208?lang=en). She received Ph.D. degree in 2022 from [The Department of Systems Engineering and Engineering Management](https://www.se.cuhk.edu.hk/) at The Chinese University of Hong Kong, under the supervision of  [Prof. SO, Man Cho, Anthony](https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/). From 2022 to 2025, she worked as a Postdoc at the [Division of Decision and Control Systems](https://www.kth.se/directory/j/jr/jrl), [KTH Royal Institute of Technology](https://www.kth.se/china), under the supervision of [Prof. Mikael Johansson](https://scholar.google.com/citations?user=wQSRT18AAAAJ&hl=en). 
 
-Her research interests include optimal algorithms and theory, with applications in distributed optimization, federated learning, secure and robust computation, and privacy protection. Her work has been published in TSP, TAC, TSIPN, NeurIPS, ICLR, and AISTATS, etc.
+Her research interests include optimization algorithms and theory, with applications in distributed optimization, federated learning, secure and robust computation, and privacy protection. Her work has been published in TSP, TAC, TSIPN, NeurIPS, ICLR, and AISTATS, etc.
 
 **<span style="color:red;">Ph.D. positions for Fall 2025 are available.</span>** Feel free to contact me for more information.
 
