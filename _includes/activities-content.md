@@ -1,4 +1,4 @@
-<h2 class="category">Talks and Presentations</h2>
+<h2 class="category">Talks</h2>
 
 - 2025.07, Jinan University. [Composite Federated Learning with Heterogeneous Data](https://drive.google.com/file/d/1IHPOtE3gqNdTozzS68DX0WlJH1DbYw88/view?usp=sharing).  
 - 2024, CDC. Differentially private online federated learning with correlated noise. 
