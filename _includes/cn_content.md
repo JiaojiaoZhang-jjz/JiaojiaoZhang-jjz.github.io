@@ -5,10 +5,9 @@
 2022 至 2025 年，她在 KTH 皇家理工学院 决策与控制系统研究部从事博士后研究，师从 Mikael Johansson 教授。  
 
 邮箱：jiaoz@gbu.edu.cn
-
-课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank">招聘信息</a>），欢迎邮件联系。
-
 <br>
 
 <h2 class="category">研究兴趣</h2>
 最优算法与理论及其在分布式优化、联邦学习、安全鲁棒计算与隐私保护等领域的应用。
+
+课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank">招聘信息</a>），欢迎邮件联系。
