@@ -29,7 +29,7 @@ with Sparse Disturbance](https://ieeexplore.ieee.org/document/8354810). IEEE Tra
 
 <h2 class="category">Conference Paper</h2>
 
-Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Memory-Efficient Correlated Noise for Locally Differentially Private Momentum in Distributed Learning](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fopenreview.net%2Fpdf%3Fid%3DxfnCjaKDsw). IEEE International Workshop on Machine Learning for Signal Processing, IEEE MLSP 2025. 
+7. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Memory-Efficient Correlated Noise for Locally Differentially Private Momentum in Distributed Learning](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fopenreview.net%2Fpdf%3Fid%3DxfnCjaKDsw). IEEE International Workshop on Machine Learning for Signal Processing, IEEE MLSP 2025. 
 
 6. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Differential Privacy in Distributed Learning: Beyond Uniformly Bounded Stochastic Gradients](https://openreview.net/forum?id=C4ultdMG8R). Artificial Intelligence and Statistics, AISTATS 2025. 
 
