@@ -29,15 +29,17 @@ with Sparse Disturbance](https://ieeexplore.ieee.org/document/8354810). IEEE Tra
 
 <h2 class="category">Conference Paper</h2>
 
-1. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Differential privacy in distributed learning: Beyond uniformly bounded stochastic gradients](https://openreview.net/forum?id=C4ultdMG8R). Accepted by Artificial Intelligence and Statistics, AISTATS 2025. 
+7. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Memory-Efficient Correlated Noise for Locally Differentially Private Momentum in Distributed Learning](https://openreview.net/forum?id=C4ultdMG8R). IEEE International Workshop on Machine Learning for Signal Processing, IEEE MLSP 2025. 
 
-2. Zesen Wang, **Jiaojiao Zhang**, Xuyang Wu, Mikael Johansson. [From promise to practice: realizing high-performance decentralized training](https://arxiv.org/pdf/2410.11998). Accepted by The Thirteenth International Conference on Learning Representations, ICLR 2025.
+6. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Differential Privacy in Distributed Learning: Beyond Uniformly Bounded Stochastic Gradients](https://openreview.net/forum?id=C4ultdMG8R). Artificial Intelligence and Statistics, AISTATS 2025. 
 
-3. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Composite Federated Learning with Heterogeneous Data](https://arxiv.org/abs/2309.01795). IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024. (The Best Paper Award, 1/2800)
+5. Zesen Wang, **Jiaojiao Zhang**, Xuyang Wu, Mikael Johansson. [From promise to practice: realizing high-performance decentralized training](https://arxiv.org/pdf/2410.11998). Accepted by The Thirteenth International Conference on Learning Representations, ICLR 2025.
 
-4. **Jiaojiao Zhang**, Jiang Hu, Anthony Man-Cho So, Mikael Johansson. [Nonconvex Federated Learning on Compact Smooth Submanifolds With Heterogeneous Data](https://arxiv.org/abs/2406.08465). Accepted by the 38th Annual Conference on Neural Information Processing Systems, NeurIPS 2024.
+4. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Composite Federated Learning with Heterogeneous Data](https://arxiv.org/abs/2309.01795). IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024. (The Best Paper Award, 1/2800)
 
-5. **Jiaojiao Zhang**, Dominik Fay, Mikael Johansson. [Dynamic Privacy Allocation for Locally Differentially Private Federated Learning with Composite Objectives](https://arxiv.org/abs/2308.01139). IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024.
+3. **Jiaojiao Zhang**, Jiang Hu, Anthony Man-Cho So, Mikael Johansson. [Nonconvex Federated Learning on Compact Smooth Submanifolds With Heterogeneous Data](https://arxiv.org/abs/2406.08465). Accepted by the 38th Annual Conference on Neural Information Processing Systems, NeurIPS 2024.
 
-6. **Jiaojiao Zhang**, Linglingzhi Zhu, Mikael Johansson. [Differentially Private Online Federated Learning with Correlated Noise](https://arxiv.org/abs/2403.16542). Accepted by IEEE Conference on Decision and Control, CDC 2024.
+2. **Jiaojiao Zhang**, Dominik Fay, Mikael Johansson. [Dynamic Privacy Allocation for Locally Differentially Private Federated Learning with Composite Objectives](https://arxiv.org/abs/2308.01139). IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024.
+
+1. **Jiaojiao Zhang**, Linglingzhi Zhu, Mikael Johansson. [Differentially Private Online Federated Learning with Correlated Noise](https://arxiv.org/abs/2403.16542). Accepted by IEEE Conference on Decision and Control, CDC 2024.
 
