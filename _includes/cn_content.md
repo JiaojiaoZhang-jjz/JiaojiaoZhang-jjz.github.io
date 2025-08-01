@@ -1,10 +1,13 @@
 <h2 class="category">简介</h2>
 
-张娇娇目前在[大湾区高等研究院智能计算研究中心](https://www.gbu.edu.cn/menu/208)担任助理教授、博士生导师。  
+张娇娇目前在[大湾区高等研究院智能计算研究中心](https://www.gbu.edu.cn/menu/208)担任长聘副教授、博士生导师。  
 2022 年在香港中文大学系统工程与工程管理学系获得博士学位，师从苏文藻教授。  
 2022 至 2025 年，她在 KTH 皇家理工学院 决策与控制系统研究部从事博士后研究，师从 Mikael Johansson 教授。  
 
 邮箱：jiaoz@gbu.edu.cn
+
+课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank">招聘信息</a>），欢迎邮件联系。
+
 <br>
 
 <h2 class="category">研究兴趣</h2>
