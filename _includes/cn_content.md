@@ -11,4 +11,4 @@
 最优算法与理论及其在分布式优化、联邦学习、安全鲁棒计算与隐私保护等领域的应用。
 
 <h2 class="category">招聘</h2>
-课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank">招聘信息</a>），欢迎邮件联系。
+课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank">招聘信息</a>），长期有效，欢迎邮件联系。
