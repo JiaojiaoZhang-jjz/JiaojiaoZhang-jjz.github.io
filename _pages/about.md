@@ -17,7 +17,7 @@ Her research interests include optimization algorithms and theory, with applicat
   <tbody>
     <tr>
       <td><strong>2025 - Now</strong></td>
-      <td>Assistant Professor, The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study</td>
+      <td>Tenured Associate Professor, The Intelligent Computing Research Center of the Great Bay Institute for Advanced Study</td>
     </tr>
     <tr>
       <td><strong>2022 - 2025</strong></td>
