@@ -41,5 +41,4 @@ with Sparse Disturbance](https://ieeexplore.ieee.org/document/8354810). IEEE Tra
 
 2. **Jiaojiao Zhang**, Dominik Fay, Mikael Johansson. [Dynamic Privacy Allocation for Locally Differentially Private Federated Learning with Composite Objectives](https://arxiv.org/abs/2308.01139). IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024.
 
-1. **Jiaojiao Zhang**, Linglingzhi Zhu, Mikael Johansson. [Differentially Private Online Federated Learning with Correlated Noise](https://arxiv.org/abs/2403.16542). Accepted by IEEE Conference on Decision and Control, CDC 2024.
 
