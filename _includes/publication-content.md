@@ -3,7 +3,8 @@
 1. **Jiaojiao Zhang**, Yuqi Xu, Kun Yuan. [An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data](https://arxiv.org/abs/2509.05213). arXiv preprint arXiv:2509.05213.
 
 <h2 class="category">Journal Paper</h2>
-2. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://www.sciencedirect.com/science/article/pii/S0005109825005928), 2025, Automatica.
+
+1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://www.sciencedirect.com/science/article/pii/S0005109825005928), 2025, Automatica.
 
 1. **Jiaojiao Zhang**, Linglingzhi Zhu, Dominik Fay, Mikael Johansson. [Locally Differentially Private Online Federated Learning With Correlated Noise](https://arxiv.org/abs/2411.18752), 2025. IEEE Transactions on Signal Processing. 
 
