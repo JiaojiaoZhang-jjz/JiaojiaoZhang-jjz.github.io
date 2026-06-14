@@ -4,13 +4,13 @@
 
 <h2 class="category">Journal Paper</h2>
 
-1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://www.sciencedirect.com/science/article/pii/S0005109825005928), 2025, Automatica.
+1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://www.sciencedirect.com/science/article/pii/S0005109825005928), Automatica, 2025.
 
-1. **Jiaojiao Zhang**, Linglingzhi Zhu, Dominik Fay, Mikael Johansson. [Locally Differentially Private Online Federated Learning With Correlated Noise](https://arxiv.org/abs/2411.18752), 2025. IEEE Transactions on Signal Processing. 
+1. **Jiaojiao Zhang**, Linglingzhi Zhu, Dominik Fay, Mikael Johansson. [Locally Differentially Private Online Federated Learning With Correlated Noise](https://arxiv.org/abs/2411.18752), IEEE Transactions on Signal Processing, 2025. 
 
 2. Jiang Hu, **Jiaojiao Zhang**, and Kangkang Deng. [Achieving local consensus over compact submanifolds](https://ieeexplore.ieee.org/document/10903988). IEEE Transactions on Automatic Control, 2025.
 
-3. Erik Berglund, **Jiaojiao Zhang**, Mikael Johansson. [Soft quasi-Newton: Guaranteed positive definiteness by relaxing the secant constraint](https://arxiv.org/abs/2403.02448), 2025. Optimization Methods and Software. (I am the corresponding author)
+3. Erik Berglund, **Jiaojiao Zhang**, Mikael Johansson. [Soft quasi-Newton: Guaranteed positive definiteness by relaxing the secant constraint](https://arxiv.org/abs/2403.02448), Optimization Methods and Software. (I am the corresponding author), 2025. 
 
 4. **Jiaojiao Zhang**, Xuechao He, Yue Huang, Qing Ling. [Byzantine-Robust and Communication-Efficient Personalized Federated Learning](https://dl.acm.org/doi/10.1109/TSP.2024.3514802). IEEE Transactions on Signal Processing, 2024. 
 
@@ -27,10 +27,12 @@
 10. **Jiaojiao Zhang**, Shuang Cong, Qing Ling, Kezhi Li. [An Efficient and Fast Quantum State Estimator
 with Sparse Disturbance](https://ieeexplore.ieee.org/document/8354810). IEEE Transactions on Cybernetics, 2018.
 
-11. **Jiaojiao Zhang**, Kezhi Li, Shuang Cong. [Efficient Reconstruction of Density Matrices for High Dimensional Quantum State Tomography](https://www.sciencedirect.com/science/article/abs/pii/S0165168417301354). Signal Processing, 2017.
+11. **Jiaojiao Zhang**, Kezhi Li, Shuang Cong. [Efficient Reconstruction of Density Matrices for High-Dimensional Quantum State Tomography](https://www.sciencedirect.com/science/article/abs/pii/S0165168417301354). Signal Processing, 2017.
 
 <h2 class="category">Conference Paper</h2>
 
+1. Huigan Zheng, **Jiaojiao Zhang**, Qing Ling. [FairMOO: Achieving Fairness in Distributed Learning via Constrained Multi-Objective Optimization](https://https://ieeexplore.ieee.org/abstract/document/11461304/). IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2026.
+  
 1. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Memory-Efficient Correlated Noise for Locally Differentially Private Momentum in Distributed Learning](https://openreview.net/forum?id=xfnCjaKDsw#discussion). IEEE International Workshop on Machine Learning for Signal Processing, IEEE MLSP 2025. 
 
 6. Yue Huang, **Jiaojiao Zhang**, Qing Ling. [Differential Privacy in Distributed Learning: Beyond Uniformly Bounded Stochastic Gradients](https://openreview.net/forum?id=C4ultdMG8R). Artificial Intelligence and Statistics, AISTATS 2025. 
