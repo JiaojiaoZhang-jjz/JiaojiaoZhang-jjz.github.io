@@ -1,8 +1,9 @@
 <h2 class="category">Submitted Paper</h2>
 
-1. **Jiaojiao Zhang**, Yuqi Xu, Kun Yuan. [An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data](https://arxiv.org/abs/2509.05213). arXiv preprint arXiv:2509.05213.
+
 
 <h2 class="category">Journal Paper</h2>
+1. **Jiaojiao Zhang**, Yizhao Fan, Yuqi Xu, Kun Yuan. [An Efficient Subspace Algorithm for Federated Learning on Heterogeneous Data](https://arxiv.org/abs/2509.05213), IEEE Transactions on Signal Processing, 2026.
 
 1. **Jiaojiao Zhang**, Jiang Hu, Mikael Johansson. [Non-convex composite federated learning with heterogeneous data](https://www.sciencedirect.com/science/article/pii/S0005109825005928), Automatica, 2025.
 
