@@ -19,5 +19,5 @@
 </p>
 
 <p>
-  <span style="color:red;">课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank" rel="noopener noreferrer">招聘信息</a>），长期有效，同时长期招收特任研究员、科研助理及访问学生，欢迎邮件联系。</span>
+  <span style="color:red;">课题组与中国科学技术大学查正军教授联合招收博士后两名（<a href="https://www.sciencehr.net/html/bsh/gx/2025/07/143897.html" target="_blank" rel="noopener noreferrer">招聘信息</a>），长期有效，同时长期招收特任研究员、研究助理及访问学生，欢迎邮件联系。</span>
 </p>
